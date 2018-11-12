@@ -187,5 +187,20 @@ STORING THE SCRAPED DATA:
 	$scrapy crawl quotes -o quotes.json
 	That will generate an quotes.json file containing all scraped items, serialized in JSON.
 	
+Django:
+With Django, you can take Web applications from concept to launch in a matter of hours. Django takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+1.Install Python¶
+2.Set up a database¶
+3.Install Django¶
+4.Writing your first Django app:
+	Check version:
+	$ python -m django --version
+	Start Project
+	$ django-admin startproject mysite
+    Runserver
+	$ python manage.py runserver
+	Open browser and type \\localhost:8000
+	u will see django project is created
 
 
